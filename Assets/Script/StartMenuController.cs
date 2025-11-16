@@ -12,7 +12,7 @@ public class StartMenuController : MonoBehaviour
     public void OnStartClick()
     {
         BackgroundMusic.bgmusic?.RestartMusic();
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainScene");
         Time.timeScale = 1f;
     }
 
